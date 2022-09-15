@@ -1,0 +1,180 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+  
+body {
+    background-color: #52595e;
+    background-color: wheat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    width: 1440px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+  
+.note-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+  
+.notes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+  
+.note {
+    background-color: white;
+    padding: 16px;
+    margin: 8px;
+    border-radius: 15px;
+    height: 300px;
+    width: 240px;
+    border: 1px solid black;
+}
+  
+.note-add {
+    padding: 8px;
+    margin: 8px;
+    cursor: pointer;
+}
+  
+.note-edit {
+    padding: 4px;
+    cursor: pointer;
+}
+  
+.note-delete {
+    padding: 4px;
+    cursor: pointer;
+}
+
+.note-textarea-style {
+    width: 200px;
+    height: 120px;
+}
+
+.date {
+    width: 150px;
+    height: 20px;
+    border: 1px solid rgb(159, 159, 179);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+  
+.hidden {
+    display: none;
+}
+
+.note-textarea-style.hidden {
+    display: none;
+}
+
+.archive-note {
+    display: flex;
+    justify-content: space-between;
+}
+
+.note-archive {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.note-save {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 7px;
+}
+
+.note-save:hover {
+    color: green;
+}
+
+.note-delete:hover {
+    color: red;
+}
+
+.note-edit:hover {
+    color: green;
+}
+
+.note-archive:hover {
+    color: red;
+}
+
+.table-archive {
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+th {
+    border: 1px solid black;
+    border-radius: 10px;
+} 
+
+td {
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.archive-button {
+    margin: 0 auto;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    bottom: 27px;
+    left: 69px;
+}
+
+.archieve-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.note-archive-button {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.note-delete-button {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.note-archive-button:hover {
+    color: green;
+}
+
+.note-delete-button:hover {
+    color: red;
+}
